@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Costo de Vehículo</title>
+</head>
+<body>
+    <h1>Calculadora de Costo de Vehículo</h1>
+    <label for="vehicle">Tipo de vehículo (coche, moto, autobús):</label>
+    <input type="text" id="vehicle" required>
+    <br>
+    <label for="kms">Kilómetros recorridos:</label>
+    <input type="number" id="kms" required>
+    <br>
+    <label for="liters">Litros consumidos:</label>
+    <input type="number" id="liters" required>
+    <br>
+    <button onclick="calculateCost()">Calcular Costo</button>
+    <h2 id="result"></h2>
+
+    <script src="main10.js"></script>
+</body>
+</html>
